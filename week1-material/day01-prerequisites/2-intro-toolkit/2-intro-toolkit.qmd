@@ -513,17 +513,8 @@ knitr::include_graphics('img/github-illustration.006.jpeg')
 knitr::include_graphics('img/github-illustration.007.jpeg')
 ```
 
-## 
+##  Demo
 
-::: {.font75}
-
-Demo
-
-:::
-
-We have actually done something similar to this demo before [by cloning the test repo and committing, and pushing](https://uci.yuja.com/V/Video?v=8768277&node=37883581&a=136650542&autoplay=1). 
-
-## 
 
 
 ::: callout-tip
