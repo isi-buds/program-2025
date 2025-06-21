@@ -1,0 +1,36 @@
+---
+title: "ISI-BUDS Summer 2025 Schedule (June 23rd - August 1)"
+format: 
+  html:
+    toc: true
+    toc-title: Schedule
+    css: style.css
+    embed-resources: true
+    link-external-newwindow: true
+    number-sections: false
+editor: source
+---
+
+```{r, echo = FALSE}
+library(fontawesome)
+```
+
+![](images/ISI-Buds-homepage-graphicv1.png){width="100%"}
+
+The program meets daily from 9 am - 3:30 pm in DBH 2011, unless otherwise specified.
+Lunch will be from noon to 1pm.
+
+Make sure to join our **Slack workspace**, you should have received an email.
+You may want to download the Slack app because we will be using this for communication throughout the program.
+Make sure notifications are on.
+
+## Day 1 - June 23, 2025
+
+| Time           | Topic                              | Material                                                                                                                                                   |
+|:------------------|:------------------|:---------------------------------|
+|                | Setup                              | [`r fa(name = "desktop")`](https://isi-buds.github.io/program-2025/week1-material/day01-prerequisites/1-setup/1-setup.html){target="_blank"}               |
+|                |Tech Setup                      | [`r fa(name = "desktop")`](https://isi-buds.github.io/program-2025/week1-material/day01-prerequisites/1-lec-r-basics/1-lec-r-basics.html){target="_blank"} |
+|                | Introduction to Toolkit                             | [`r fa(name = "desktop")`](https://isi-buds.github.io/program-2025/week1-material/day01-prerequisites/2-intro-toolkit/2-intro-toolkit.html){target="_blank"}     |
+|                | Lab                                |                                                                                                                                                            |
+
+
