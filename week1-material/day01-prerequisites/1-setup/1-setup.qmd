@@ -30,7 +30,7 @@ isi-buds.github.io/program-2025
 
 # Git
 
-- Check to see if you have Git installed. If you are on Mac open terminal and on Windows open your command line write `which git`. If you have it installed it would show you the git version.
+- Check to see if you have Git installed. If you are on Mac open terminal and on Windows open your command line write `git --version`. If you have it installed it would show you the git version.
 
 - If you don't have it installed then [download](https://git-scm.com/downloads) and install. 
 
