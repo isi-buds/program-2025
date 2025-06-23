@@ -34,3 +34,13 @@ Make sure notifications are on.
 |                | Lab                                |                                                                                                                                                            |
 
 
+## Day 2 - June 24, 2025
+
+| Time           | Topic                              | Material                                                                                                                                                   |
+|:------------------|:------------------|:---------------------------------|
+|                | Working with Datasets and Describing Them With Numbers                              | [`r fa(name = "desktop")`](https://isi-buds.github.io/program-2025/week1-material/day02-intro-data-viz/1-data-numbers/1-data-numbers.html){target="_blank"}               |
+|                |Basics of Data Visualization                      | [`r fa(name = "desktop")`](https://isi-buds.github.io/program-2025/week1-material/day02-intro-data-viz/2-data-viz/2-data-viz.html){target="_blank"} |
+|                | Introduction to Toolkit                             | [`r fa(name = "desktop")`](https://isi-buds.github.io/program-2025/week1-material/day01-prerequisites/2-intro-toolkit/2-intro-toolkit.html){target="_blank"}     |
+|                | Lab                                |                                                                                                                                                            |
+
+
