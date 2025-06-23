@@ -517,3 +517,12 @@ This function sets the working directory to the project folder (i.e. where the `
 #| eval: false
 read_csv(here::here("data/dataset.csv"))
 ```
+
+## Practice
+
+Download and import
+
+1. [Restaurant and Market Health Inspections](https://data.lacity.org/Community-Economic-Development/Restaurant-and-Market-Health-Inspections/29fd-3paw/about_data) from City of LA.
+
+2. - [HIV Antibody Test](https://wwwn.cdc.gov/nchs/nhanes/search/datapage.aspx?Component=Laboratory&CycleBeginYear=2017) Note that the data is in XPT format.
+
