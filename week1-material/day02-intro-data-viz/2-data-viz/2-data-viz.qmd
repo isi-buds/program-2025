@@ -458,6 +458,163 @@ The plus sign for adding layers `+` always has a space before it and is followed
 
 The new line is indented by two spaces. RStudio does this automatically for you. 
 
+## Labeling Axes
+
+```{r}
+#| output-location: column
+#| code-line-numbers: "6|7|8"
+ggplot(penguins,
+       aes(x = bill_depth_mm,
+           y = bill_length_mm,
+           color = species)) +
+  geom_point() +
+  labs(x = "Bill Depth (mm)", 
+       y = "Bill Length (mm)",
+       color = "Species",
+       title = "Palmer Penguins") 
+```
+
+We can change axes and plot labels using the `labs()` function. 
+
+
+## Themes
+
+::: {.panel-tabset}
+## `theme_gray()`
+
+```{r}
+#| code-line-numbers: "9"
+#| output-location: column
+ggplot(penguins,
+       aes(x = bill_depth_mm,
+           y = bill_length_mm,
+           color = species)) +
+  geom_point() +
+  labs(x = "Bill Depth (mm)", 
+       y = "Bill Length (mm)", 
+       title = "Palmer Penguins") +
+  theme_gray()
+```
+
+Theme gray is the default theme in ggplot.
+
+## `theme_bw()`
+
+```{r}
+#| output-location: column
+#| code-line-numbers: "9"
+ggplot(penguins,
+       aes(x = bill_depth_mm,
+           y = bill_length_mm,
+           color = species)) +
+  geom_point() +
+  labs(x = "Bill Depth (mm)", 
+       y = "Bill Length (mm)", 
+       title = "Palmer Penguins") +
+  theme_bw()
+```
+
+## `theme_dark()`
+
+```{r}
+#| output-location: column
+#| code-line-numbers: "9"
+ggplot(penguins,
+       aes(x = bill_depth_mm,
+           y = bill_length_mm,
+           color = species)) +
+  geom_point() +
+  labs(x = "Bill Depth (mm)", 
+       y = "Bill Length (mm)", 
+       title = "Palmer Penguins") +
+  theme_dark()
+```
+
+
+## `theme_classic()`
+
+```{r}
+#| output-location: column
+#| code-line-numbers: "9"
+ggplot(penguins,
+       aes(x = bill_depth_mm,
+           y = bill_length_mm,
+           color = species)) +
+  geom_point() +
+  labs(x = "Bill Depth (mm)", 
+       y = "Bill Length (mm)", 
+       title = "Palmer Penguins") +
+  theme_classic()
+```
+
+
+## `theme_minimal()`
+
+
+```{r}
+#| code-line-numbers: "9"
+#| output-location: column
+ggplot(penguins,
+       aes(x = bill_depth_mm,
+           y = bill_length_mm,
+           color = species)) +
+  geom_point() +
+  labs(x = "Bill Depth (mm)", 
+       y = "Bill Length (mm)", 
+       title = "Palmer Penguins") +
+  theme_minimal()
+```
+
+
+
+:::
+
+## Font Size
+
+
+```{r}
+#| code-line-numbers: "9"
+#| output-location: column
+ggplot(penguins,
+       aes(x = bill_depth_mm,
+           y = bill_length_mm,
+           color = species)) +
+  geom_point() +
+  labs(x = "Bill Depth (mm)", 
+       y = "Bill Length (mm)", 
+       title = "Palmer Penguins") +
+  theme(text = element_text(size=20))
+```
+
+The `theme()` function allows for many components of a theme. By typing `?theme` in the Console, you can read the documentation of the function to see what components can be modified.
+
+## Font Size
+
+One can also set the default font size of theme. For instance, if you utilize the following code at the first chunk of a Quarto document, all plots will be in gray theme and will have a font size of 22.
+
+```{r}
+theme_set(theme_gray(base_size = 22))
+```
+
+
+
+## Using Shapes in Addition to Colors
+
+```{r}
+#| output-location: column
+#| code-line-numbers: "4"
+ggplot(penguins,
+       aes(x = bill_depth_mm,
+           y = bill_length_mm,
+           shape = species,
+           color = species)) +
+  geom_point(size = 4) 
+```
+
+Previously species were only distinguishable to someone who could distinguish these colors. 
+By using shapes, color-blind viewers can also distinguish the species.
+
+
 
 ## Practice
 
