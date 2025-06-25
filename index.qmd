@@ -47,7 +47,7 @@ Make sure notifications are on.
 
 | Time           | Topic                              | Material                                                                                                                                                   |
 |:------------------|:------------------|:---------------------------------|
-|                | Advanced Data Visualization                              | [`r fa(name = "desktop")`](https://isi-buds.github.io/program-2025/week1-material/day03-data-viz2-wrangle/1-data-viz1/1-data-viz2.html){target="_blank"}               |
+|                | Advanced Data Visualization                              | [`r fa(name = "desktop")`](https://isi-buds.github.io/program-2025/week1-material/day03-data-viz2-wrangle/1-data-viz2/1-data-viz2.html){target="_blank"}               |
 |                | Lab                                |                                                                                                                                                            |
 
 
