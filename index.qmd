@@ -24,7 +24,7 @@ Make sure to join our **Slack workspace**, you should have received an email. Yo
 ## Day 1 - June 23, 2025
 
 | Time | Topic | Material |
-|:------------------|:------------------|:---------------------------------|
+|:---|:---|:---|
 |  | Setup | [`r fa(name = "desktop")`](https://isi-buds.github.io/program-2025/week1-material/day01-prerequisites/1-setup/1-setup.html){target="_blank"} |
 |  | Tech Setup | [`r fa(name = "desktop")`](https://isi-buds.github.io/program-2025/week1-material/day01-prerequisites/1-lec-r-basics/1-lec-r-basics.html){target="_blank"} |
 |  | Introduction to Toolkit | [`r fa(name = "desktop")`](https://isi-buds.github.io/program-2025/week1-material/day01-prerequisites/2-intro-toolkit/2-intro-toolkit.html){target="_blank"} |
@@ -33,7 +33,7 @@ Make sure to join our **Slack workspace**, you should have received an email. Yo
 ## Day 2 - June 24, 2025
 
 | Time | Topic | Material |
-|:------------------|:------------------|:---------------------------------|
+|:---|:---|:---|
 |  | Working with Datasets and Describing Them With Numbers | [`r fa(name = "desktop")`](https://isi-buds.github.io/program-2025/week1-material/day02-intro-data-viz/1-data-numbers/1-data-numbers.html){target="_blank"} |
 |  | Basics of Data Visualization | [`r fa(name = "desktop")`](https://isi-buds.github.io/program-2025/week1-material/day02-intro-data-viz/2-data-viz/2-data-viz.html){target="_blank"} |
 |  | Introduction to Toolkit | [`r fa(name = "desktop")`](https://isi-buds.github.io/program-2025/week1-material/day01-prerequisites/2-intro-toolkit/2-intro-toolkit.html){target="_blank"} |
@@ -42,7 +42,15 @@ Make sure to join our **Slack workspace**, you should have received an email. Yo
 ## Day 3 - June 25, 2025
 
 | Time | Topic | Material |
-|:------------------|:------------------|:---------------------------------|
+|:---|:---|:---|
 |  | Advanced Data Visualization | [`r fa(name = "desktop")`](https://isi-buds.github.io/program-2025/week1-material/day03-data-viz2-wrangle/1-data-viz2/1-data-viz2.html){target="_blank"} |
 |  | Data Wranling Part I | [`r fa(name = "desktop")`](https://isi-buds.github.io/program-2025/week1-material/day03-data-viz2-wrangle/2-data-wrangle1/2-data-wrangle1.html){target="_blank"} |
 |  | Lab |  |
+
+## Day 4 - June 26, 2025
+
+| Time | Topic | Material | Data
+|:---|:---|:---|
+|  | Data Wranling Part II  | [`r fa(name = "desktop")`](){target="_blank"} | [`r fa(name = "desktop")`](https://data.ca.gov/dataset/covid-19-hospital-data-archived/resource/e34f966b-39dc-4f86-8087-2f9b327f60f3){target="_blank"} [`r fa(name = "desktop")`](https://isi-buds.github.io/program-2025/week1-material/day04-wrangle2-reproduce/2-data-wrangle1/2-data-wrangle1.html){target="_blank"}|
+|  | Strings and Dates | [`r fa(name = "desktop")`](){target="_blank"} |  |
+|  | Lab |  |  | 
