@@ -154,7 +154,11 @@ if (age != 999) {
 Write an if statement to check if age is less than 21.
 If true, print the message "I am younger than 21!".
 If false, print the message "I am 21 or over!".
-*Make sure to add an R code chunk here using the green +C button above*
+*Make sure to add an R code chunk here using the green +C button above.*
+
+```{r}
+
+```
 
 You can also write if statements with multiple conditions.
 
@@ -211,7 +215,7 @@ for (month in c("Jan.", "Feb.", "Mar.", "Apr.", "May", "Jun.", "Jul.", "Aug.", "
 }
 ```
 
-## Commiting again
+## Committing again
 
 At this point, we have quite a bit of changes again in the document.
 If you want to the extra practice with git to build your muscle memory, try committing, and pushing to Github again.
@@ -225,9 +229,15 @@ We can define functions in R in this way:
 print_name <- function(name){
   print(paste("My name is:",name))
 }
+print_name("bianca")
 ```
 
-Try it ! Using `print_name("your_name")` should automatically print your name and let you change it quickly. However, this will not return an object. This means you cannot assign the output of the function to a variable. To do so, we need to use `return` at the end of the function. For example
+Try it !
+Using `print_name("your_name")` should automatically print your name and let you change it quickly.
+However, this will not return an object.
+This means you cannot assign the output of the function to a variable.
+To do so, we need to use `return` at the end of the function.
+For example
 
 ```{r}
 compute_year_born <- function(cur_age, cur_year){
@@ -236,7 +246,7 @@ compute_year_born <- function(cur_age, cur_year){
 }
 ```
 
-This function takes two arguments, `cur_age`, `cur_year` and return the birth year as an `integer`. 
+This function takes two arguments, `cur_age`, `cur_year` and return the birth year as an `integer`.
 
 You can use it to assigns to a variable a certain value (similar to what we did above, but using the function to return it instead of plugging it in yourself!)
 
@@ -245,10 +255,11 @@ my_birth_year <- compute_year_born(31,2025)
 my_birth_year
 ```
 
-You will note that function does not take into account the fact someone might be born before or after the current date (so that the birth year might be different). 
+You will note that function does not take into account the fact someone might be born before or after the current date (so that the birth year might be different).
 
-Do you think you can modify the above function to account for that? Hint: you might use an `if` statement as we saw above!! (There is many ways to do this! try out what makes the most sense to you and then compare with your classmates)
-
+Do you think you can modify the above function to account for that?
+Hint: you might use an `if` statement as we saw above!!
+(There is many ways to do this! try out what makes the most sense to you and then compare with your classmates)
 
 ## Basic plotting
 
@@ -264,11 +275,53 @@ We can specify axis labels
 plot(x = c(-4, 3, 1), y = c(5, 0, 2), xlab = "location", ylab = "height")
 ```
 
-Make a plot with the following points (1, -3), (-2, 5), (4, 0).
-*You will have to add an R chunk to write your code in.*
+Make a plot with the following points (1, -3), (-2, 5), (4, 0), (5,1).
+*You will have to add an R chunk to write your code in!!*
 
-## Wrapping up
+(Add your code here)\
+
+You can change the style of your scatterplot using the argument `pch`.
+For instance, using my favorite style `pch=16` :
+
+```{r}
+plot(x = c(-4, 3, 1), y = c(5, 0, 2), xlab = "location", ylab = "height",pch=16)
+```
+
+Play around with changing the number of pch to see how the plot changes!
+
+## Basic plotting : Line plots
+
+Now what if we want to connect the lines in the plot?
+Use the argument `type="l"`
+
+```{r}
+plot(x = c(-4, 1, 3), y = c(5, 0, 2), xlab = "location", ylab = "height",pch=16,type="l")
+```
+
+If you want both the points and the line, use the argument `type="b"`
+
+```{r}
+plot(x = c(-4, 1, 3), y = c(5, 0, 2), xlab = "location", ylab = "height",pch=16,type="b")
+```
+
+Feel free to try different types and see how they look !!
+(To see what's available, remember to use `?plot` to see what it is possible to do with the function)
+
+## More plotting
+
+If you finish the previous section, type `?plot` to see what is available in terms of options.
+For instance, try to:
+
+-   add a Title to the plot
+-   try to change the color of the points.
+-   change the style of the line.
+
+We are going to learn a lot more about plotting tomorrow.
+These are just some preliminary examples.
+
+\## Wrapping up
 
 We have finished editing this lab now so save, commit, pull, push this document.
 
-Render this document to html and commit, pull, push the html. (Recall, they are two different files!!)
+Render this document to html and commit, pull, push the html.
+(Recall, they are two different files!!)
