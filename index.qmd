@@ -67,8 +67,8 @@ Make sure notifications are on.
 
 | Time | Topic | Material |
 |:-----------------------|:-----------------------|:-----------------------|
-| | Factors |  |
-| | Git Collaboration Workshop |  | 
+| | Factors | [`r fa(name = "desktop")`](https://isi-buds.github.io/program-2025/week1-material/day05-factors-workflow/1-factors/1-factors.html){target="_blank"} |
+| | Reproducible Workflow | [`r fa(name = "desktop")`](https://isi-buds.github.io/program-2025/week1-material/day05-factors-workflow/2-workflow/2-workflow){target="_blank"} | 
 | | Finish lab Day 4 | [`r fa(name = "desktop")`](https://isi-buds.github.io/program-2025/week1-material/day04-wrangle2-dates/lab/2025-day04-lab_solutions.html){target="_blank"} |
 | | Dr. Guo Presentation | | 
 | | Grad School Panel | | 
